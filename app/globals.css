@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* THEME VARIABLES */
+  --theme-bg: #050d0a;
+  --theme-card: #0a2d22;
+  --theme-text: #ffffff;
+  --theme-text-secondary: #bcbcbc;
+  --theme-border: rgba(255, 255, 255, 0.10);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* LIGHT THEME */
+
+html.light {
+  --theme-bg: #ffffff;
+  --theme-card: #ffffff;
+  --theme-text: #081510;
+  --theme-text-secondary: #555555;
+  --theme-border: #e5e5e5;
+  --tab-text: #666666;
+   --nav-shadow: 0 12px 35px rgba(13, 62, 47, 0.22);
+  
+}
+
+/* DARK THEME */
+
+html.dark {
+  --theme-bg: #050d0a;
+  --theme-card: rgba(255, 255, 255, 0.05);
+  --theme-text: #ffffff;
+  --theme-text-secondary: #bcbcbc;
+  --theme-border: rgba(255, 255, 255, 0.10);
+   --tab-text: #ffffff;
+   --nav-shadow: 0 10px 50px rgba(13, 62, 47, 0.55);
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden !important;
+  overflow-y: auto;
+  scrollbar-width: none;
+
+  background:
+    linear-gradient(
+      to bottom,
+      #0d3e2f 0%,
+      #0b3226 12%,
+      #081f18 32%,
+      #061510 58%,
+      #050d0a 100%
+    );
+
+  color: var(--theme-text);
+  font-family: var(--font-inter);
+
+  transition:
+    background 0.4s ease,
+    color 0.4s ease;
+}
+
+/* DARK THEME BACKGROUND */
+
+html.dark body {
+  background:
+    linear-gradient(
+      to bottom,
+      #0d3e2f 0%,
+      #0b3226 12%,
+      #081f18 32%,
+      #061510 58%,
+      #050d0a 100%
+    );
+}
+
+/* LIGHT THEME BACKGROUND */
+
+html.light body {
+  background:
+    linear-gradient(
+      to bottom,
+      #ffffff 0%,
+      #f8f8f8 35%,
+      #f1f1f1 70%,
+      #ebebeb 100%
+    );
+}
+
+/* NAVBAR MENU PREMIUM HOVER */
+
+.nav-item {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #daa520;
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 0%;
+  height: 1px;
+  background: #daa520;
+  transition: width 0.3s ease;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+
+/* AMENITIES MARQUEE */
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* HIDE SCROLLBAR */
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
