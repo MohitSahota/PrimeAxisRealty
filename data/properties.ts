@@ -762,4 +762,430 @@ export const properties = [
 
     mapLink: "#",
   },
+
+  {
+    slug: "vamanaArivindam",
+    category: "residential",
+
+    title: "Vamana Arvindam",
+    overview:
+      "Experience unparalleled luxury and tranquility at Vamana Residences, a new residential project in Zirakpur—a gated oasis nestled amidst lush greenery and designed for those who seek the perfect balance between modern living and serene surroundings. Our thoughtfully crafted apartments not only provide a comfortable living space but also offer breathtaking views that transform your everyday routine into a peaceful retreat.",
+
+    developer: "Vamana ",
+
+    location: "Mohali",
+
+    status: "Under Construction",
+
+    configurations: [
+      {
+        type: "3 BHK",
+        superArea: "2325 Sq Ft",
+        carpetArea: "1245.59 Sq Ft",
+        price: "₹1,97,62,500 Cr",
+      },
+      {
+        type: "3 BHK",
+        superArea: "2518 Sq Ft",
+        carpetArea: "1245.59 Sq Ft",
+        price: "₹2,19,06,600 Cr",
+      },
+      {
+        type: "3+1 BHK",
+        superArea: "2690 Sq Ft",
+        carpetArea: "1523.84 Sq Ft",
+        price: "₹2,28,65,000 Cr",
+      },
+      {
+        type: "3+1 BHK",
+        superArea: "2950 Sq Ft",
+        carpetArea: "1523.84 Sq Ft",
+        price: "₹2,56,65,000 Cr",
+      },
+      {
+        type: "4+1 BHK",
+        superArea: "3685 Sq Ft",
+        carpetArea: "2154.72 Sq Ft",
+        price: "₹3,39,02,000 Cr",
+      },
+    ],
+
+    mainImage: "/properties/vamanaArvindam/1.png",
+
+    gallery: [
+      "/properties/vamanaArvindam/1.png",
+      "/properties/vamanaArvindam/2.jpg",
+      "/properties/vamanaArvindam/3.jpg",
+      "/properties/vamanaArvindam/4.jpg",
+      "/properties/vamanaArvindam/5.jpg",
+      "/properties/vamanaArvindam/6.jpg",
+      "/properties/vamanaArvindam/7.jpg",
+      "/properties/vamanaArvindam/8.jpg",
+      "/properties/vamanaArvindam/9.jpg",
+      "/properties/vamanaArvindam/10.jpg",
+      "/properties/vamanaArvindam/11.jpg",
+      "/properties/vamanaArvindam/12.jpg",
+      "/properties/vamanaArvindam/13.jpg",
+      "/properties/vamanaArvindam/14.jpg",
+    ],
+
+    amenities: [
+      {
+        name: "Clubhouse",
+        icon: "/amenities/clubhouse.png",
+      },
+
+      {
+        name: "Swimming Pool",
+        icon: "/amenities/swimming-pool.png",
+      },
+
+      {
+        name: "Gym",
+        icon: "/amenities/gym.png",
+      },
+
+      {
+        name: "Park / Garden",
+        icon: "/amenities/park-garden.png",
+      },
+
+      {
+        name: "Kids Play Area",
+        icon: "/amenities/kids-play-area.png",
+      },
+
+      {
+        name: "Jogging Track",
+        icon: "/amenities/jogging-track.png",
+      },
+
+      {
+        name: "Sports Facilities",
+        icon: "/amenities/sports-facilities.png",
+      },
+
+      {
+        name: "Lift",
+        icon: "/amenities/lift.png",
+      },
+
+      {
+        name: "Power Backup",
+        icon: "/amenities/power-backup.png",
+      },
+
+      {
+        name: "Security",
+        icon: "/amenities/security.png",
+      },
+
+      {
+        name: "CCTV",
+        icon: "/amenities/cctv.png",
+      },
+
+      {
+        name: "Gated Society",
+        icon: "/amenities/gated-society.png",
+      },
+
+      {
+        name: "Fire Safety",
+        icon: "/amenities/fire-safety.png",
+      },
+
+      {
+        name: "Visitor Parking",
+        icon: "/amenities/visitor-parking.png",
+      },
+
+      {
+        name: "Pet Friendly",
+        icon: "/amenities/pet-friendly.png",
+      },
+    ],
+
+    highlights: ["Premium Location", "Modern Architecture", "Luxury Lifestyle"],
+
+    mapLink: "#",
+  },
+  {
+    slug: "vintageGreen",
+    category: "residential",
+    title: "Vintage Green",
+    overview:
+      "Vintage Greens, Zirakpur. RERA approved one of the luxurious residential and commercial projects located at PR-7 Chandigarh International Airport Road Zirakpur. Vintage Greens, Zirakpur. Represent a new way of urban living the project is a combination of modern design, smart features and world-class amenities in a rapidly evolving area.",
+    featured: false,
+
+    developer: "Vintage Buildtech",
+
+    location: "Mohali",
+
+    status: "Under Construction",
+
+    configurations: [
+      {
+        type: "3BHK",
+        superArea: "2350 Sq Ft",
+        carpetArea: "1685 Sq Ft",
+        price: "₹2,11,50,000 Cr",
+      },
+      {
+        type: "3+1 BHK",
+        superArea: "2698 Sq Ft",
+        carpetArea: "1950 Sq Ft",
+        price: "₹2,42,82,000 Cr",
+      },
+      {
+        type: "4+1 BHK",
+        superArea: "3796 Sq Ft",
+        carpetArea: "2635 Sq Ft",
+        price: "₹3,41,64,000 Cr",
+      },
+    ],
+
+    mainImage: "/properties/vintageGreens/1.png",
+
+    gallery: [
+      "/properties/vintageGreens/1.png",
+      "/properties/vintageGreens/2.jpg",
+      "/properties/vintageGreens/3.jpg",
+      "/properties/vintageGreens/4.jpg",
+      "/properties/vintageGreens/5.jpg",
+      "/properties/vintageGreens/6.jpg",
+      "/properties/vintageGreens/7.jpg",
+      "/properties/vintageGreens/8.jpg",
+      "/properties/vintageGreens/9.jpg",
+      "/properties/vintageGreens/10.jpg",
+      "/properties/vintageGreens/11.jpg",
+      "/properties/vintageGreens/12.jpg",
+      "/properties/vintageGreens/13.jpg",
+      "/properties/vintageGreens/14.jpg",
+    ],
+
+    amenities: [
+      {
+        name: "Clubhouse",
+        icon: "/amenities/clubhouse.png",
+      },
+
+      {
+        name: "Swimming Pool",
+        icon: "/amenities/swimming-pool.png",
+      },
+
+      {
+        name: "Gym",
+        icon: "/amenities/gym.png",
+      },
+
+      {
+        name: "Park / Garden",
+        icon: "/amenities/park-garden.png",
+      },
+
+      {
+        name: "Kids Play Area",
+        icon: "/amenities/kids-play-area.png",
+      },
+
+      {
+        name: "Jogging Track",
+        icon: "/amenities/jogging-track.png",
+      },
+
+      {
+        name: "Sports Facilities",
+        icon: "/amenities/sports-facilities.png",
+      },
+
+      {
+        name: "Lift",
+        icon: "/amenities/lift.png",
+      },
+
+      {
+        name: "Power Backup",
+        icon: "/amenities/power-backup.png",
+      },
+
+      {
+        name: "Security",
+        icon: "/amenities/security.png",
+      },
+
+      {
+        name: "CCTV",
+        icon: "/amenities/cctv.png",
+      },
+
+      {
+        name: "Gated Society",
+        icon: "/amenities/gated-society.png",
+      },
+
+      {
+        name: "Fire Safety",
+        icon: "/amenities/fire-safety.png",
+      },
+
+      {
+        name: "Visitor Parking",
+        icon: "/amenities/visitor-parking.png",
+      },
+
+      {
+        name: "Pet Friendly",
+        icon: "/amenities/pet-friendly.png",
+      },
+    ],
+
+    highlights: [
+      "Affordable Luxury",
+      "Family Friendly",
+      "Prime Tricity Location",
+    ],
+
+    mapLink: "#",
+  },
+  {
+    slug: "tiara",
+    category: "residential",
+    title: "The Tiara",
+    overview:
+      "Welcome to The Tiara, where luxury and nature converge in perfect harmony. This haven of opulence comes crafted by the esteemed Sham Jewellers and prestigious Exotic Group. While the former is renowned for redefining luxury through exquisite jewellery, the later is a pioneer in the realty sphere, with over 45 years of shining experience.",
+    featured: false,
+
+    developer: "Sham & Exotic Builder",
+
+    location: "Chandigarh",
+
+    status: "Under Construction",
+
+    configurations: [
+      {
+        type: "4+1 BHK",
+        superArea: "4088 TO 5378 Sq Ft",
+        carpetArea: "N/A",
+        price: "₹4.16 Cr",
+      },
+      {
+        type: "5+1 BHK",
+        superArea: "8207 Sq Ft",
+        carpetArea: "N/A",
+        price: "₹8.92 Cr",
+      },
+    ],
+
+    mainImage: "/properties/tiara/main1.png",
+
+    gallery: [
+      "/properties/tiara/main1.png",
+      "/properties/tiara/1.jpg",
+      "/properties/tiara/2.jpg",
+      "/properties/tiara/3.jpg",
+      "/properties/tiara/4.jpg",
+      "/properties/tiara/5.jpg",
+      "/properties/tiara/6.jpg",
+      "/properties/tiara/7.jpg",
+      "/properties/tiara/8.jpg",
+      "/properties/tiara/9.jpg",
+      "/properties/tiara/10.jpg",
+      "/properties/tiara/11.jpg",
+      "/properties/tiara/12.jpg",
+      "/properties/tiara/13.jpg",
+      "/properties/tiara/14.jpg",
+      "/properties/tiara/15.jpg",
+      "/properties/tiara/16.jpg",
+      "/properties/tiara/17.jpg",
+      "/properties/tiara/18.jpg",
+      "/properties/tiara/19.jpg",
+    ],
+
+    amenities: [
+      {
+        name: "Clubhouse",
+        icon: "/amenities/clubhouse.png",
+      },
+
+      {
+        name: "Swimming Pool",
+        icon: "/amenities/swimming-pool.png",
+      },
+
+      {
+        name: "Gym",
+        icon: "/amenities/gym.png",
+      },
+
+      {
+        name: "Park / Garden",
+        icon: "/amenities/park-garden.png",
+      },
+
+      {
+        name: "Kids Play Area",
+        icon: "/amenities/kids-play-area.png",
+      },
+
+      {
+        name: "Jogging Track",
+        icon: "/amenities/jogging-track.png",
+      },
+
+      {
+        name: "Sports Facilities",
+        icon: "/amenities/sports-facilities.png",
+      },
+
+      {
+        name: "Lift",
+        icon: "/amenities/lift.png",
+      },
+
+      {
+        name: "Power Backup",
+        icon: "/amenities/power-backup.png",
+      },
+
+      {
+        name: "Security",
+        icon: "/amenities/security.png",
+      },
+
+      {
+        name: "CCTV",
+        icon: "/amenities/cctv.png",
+      },
+
+      {
+        name: "Gated Society",
+        icon: "/amenities/gated-society.png",
+      },
+
+      {
+        name: "Fire Safety",
+        icon: "/amenities/fire-safety.png",
+      },
+
+      {
+        name: "Visitor Parking",
+        icon: "/amenities/visitor-parking.png",
+      },
+
+      {
+        name: "Pet Friendly",
+        icon: "/amenities/pet-friendly.png",
+      },
+    ],
+
+    highlights: [
+      "Affordable Luxury",
+      "Family Friendly",
+      "Prime Tricity Location",
+    ],
+
+    mapLink: "#",
+  },
 ];
