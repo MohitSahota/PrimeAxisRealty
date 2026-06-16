@@ -1223,23 +1223,16 @@ export const properties = [
       },
     ],
 
-    mainImage: "/properties/vintageGreens/1.png",
+    mainImage: "/properties/motiaHarmonyGreen/main1.png",
 
     gallery: [
-      "/properties/vintageGreens/1.png",
-      "/properties/vintageGreens/2.jpg",
-      "/properties/vintageGreens/3.jpg",
-      "/properties/vintageGreens/4.jpg",
-      "/properties/vintageGreens/5.jpg",
-      "/properties/vintageGreens/6.jpg",
-      "/properties/vintageGreens/7.jpg",
-      "/properties/vintageGreens/8.jpg",
-      "/properties/vintageGreens/9.jpg",
-      "/properties/vintageGreens/10.jpg",
-      "/properties/vintageGreens/11.jpg",
-      "/properties/vintageGreens/12.jpg",
-      "/properties/vintageGreens/13.jpg",
-      "/properties/vintageGreens/14.jpg",
+      "/properties/motiaHarmonyGreen/main1.png",
+      "/properties/motiaHarmonyGreen/1.jpeg",
+      "/properties/motiaHarmonyGreen/2.jpeg",
+      "/properties/motiaHarmonyGreen/3.jpeg",
+      "/properties/motiaHarmonyGreen/4.jpeg",
+      "/properties/motiaHarmonyGreen/5.webp",
+      "/properties/motiaHarmonyGreen/6.jpeg",
     ],
 
     amenities: [
