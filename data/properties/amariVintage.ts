@@ -1,6 +1,7 @@
 const amariVintage = {
   slug: "amariVintage",
     category: "residential",
+    featured: false,
 
     title: "Amari Vintage Arch",
     overview:
