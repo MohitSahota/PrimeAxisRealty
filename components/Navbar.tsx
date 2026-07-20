@@ -9,17 +9,14 @@ export default function Navbar() {
 
   return (
     <nav
-  className="w-full bg-[var(--theme-card)] border-b border-[var(--theme-border)]  transition-all duration-300"
-  style={{
-    boxShadow: "var(--nav-shadow)",
-  }}
->
-
+  className="fixed top-0 left-0 right-0 z-50 w-full bg-[#091E19] border-b border-[var(--theme-border)] transition-all duration-300"
+      style={{
+        boxShadow: "var(--nav-shadow)",
+      }}
+    >
       <div className="max-w-[1600px] mx-auto px-4 md:px-6 lg:px-10 py-2 flex items-center justify-between">
-
         {/* LOGO */}
         <div className="flex items-center min-w-[120px] md:min-w-[220px]">
-
           <Link href="/">
             <Image
               src="/logo.png"
@@ -29,17 +26,14 @@ export default function Navbar() {
               className="object-contain"
             />
           </Link>
-
         </div>
 
         {/* DESKTOP MENU */}
         <div className="hidden md:flex flex-1 justify-center">
-
           <div className="flex items-center gap-14">
-
             <Link
               href="/"
-              className="nav-item text-[var(--theme-text)] text-[15px] tracking-[2.5px] uppercase"
+              className="nav-item  text-[var(--theme-text)] text-[15px] tracking-[2.5px] uppercase"
             >
               Home
             </Link>
@@ -57,21 +51,17 @@ export default function Navbar() {
             >
               Contact
             </Link>
-
           </div>
-
         </div>
 
         {/* CALL BUTTON */}
         <div className="hidden md:flex items-center justify-end min-w-[220px]">
-
           <a
             href="tel:+919888705519"
-            className="bg-[var(--theme-card)] border border-[var(--theme-border)] text-[var(--theme-text)] px-6 py-3 rounded-full backdrop-blur-md hover:bg-[#daa520] hover:text-[#081510] transition duration-300 tracking-[1px]"
+            className="relative rounded-full bg-[#FEFAE9] px-4 py-2 font-mono font-bold text-[#091E19] transition-colors duration-300 ease-linear before:absolute before:right-1/2 before:top-1/2 before:-z-[1] before:h-3/4 before:w-2/3 before:origin-centter before:-translate-y-1/2 before:translate-x-1/2 before:animate-ping before:rounded-full before:bg-[#FEFAE9] hover:bg-[#D4AF37] hover:before:[#FEFAE9]"
           >
             Call Us
           </a>
-
         </div>
 
         {/* MOBILE MENU BUTTON */}
@@ -81,14 +71,11 @@ export default function Navbar() {
         >
           ☰
         </button>
-
       </div>
 
       {/* MOBILE MENU */}
       {menuOpen && (
-
-        <div className="md:hidden bg-[var(--theme-card)] border-t border-[var(--theme-border)] px-6 py-6 flex flex-col gap-5 backdrop-blur-md">
-
+        <div className="md:hidden relative z-[100] bg-[var(--theme-card)] border-t border-[var(--theme-border)] px-6 py-6 flex flex-col gap-5 backdrop-blur-md">
           <Link
             href="/"
             className="text-[var(--theme-text)] hover:text-[#daa520] transition duration-300"
@@ -119,11 +106,8 @@ export default function Navbar() {
           >
             Call Us
           </a>
-
         </div>
-
       )}
-
     </nav>
   );
 }

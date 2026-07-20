@@ -20,10 +20,6 @@ export default function ContactPage() {
 
           <div className="relative text-center">
 
-            <p className="text-[#daa520] uppercase tracking-[5px] text-sm">
-              Prime Axis Realty
-            </p>
-
             <div className="flex items-center justify-center gap-4 mt-6">
 
               <div className="w-16 md:w-24 h-[1px] bg-[#daa520]" />

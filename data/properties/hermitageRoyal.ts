@@ -1,15 +1,14 @@
 import type { Property } from "../types";
 
-const amariVintage: Property = {
-  slug: "amariVintage",
+const hermitageRoyal: Property = {
+  slug: "hermitageRoyal",
   category: "residential",
+  title: "Hermitage Royal",
+  overview:
+    "Just three words describe Hermitage Royal. Enjoy the wraparound vast greenery, adjoining a forest cover of Approx 300 Acres of Land. This project is being developed in a manner leaving majority of the space open to sky.",
   featured: false,
 
-  title: "Amari Vintage Arch",
-  overview:
-    "Amari Vintage Arch is a landmark luxury residential development in Mohali, offering expansive 3+1 BHK residences, premium specifications, landscaped open spaces, world-class amenities and seamless connectivity to Chandigarh, Airport Road and major commercial hubs.",
-
-  developer: "Amari Developers",
+  developer: "Hermitage Royal",
 
   location: "Mohali",
 
@@ -17,29 +16,28 @@ const amariVintage: Property = {
 
   configurations: [
     {
-      type: "3+1 BHK",
-      superArea: "2240 Sq Ft",
-      carpetArea: "1406 Sq Ft",
-      price: "₹2.15 Cr",
+      type: "3 BHK",
+      superArea: "1880 Sq Ft",
+      coveredArea: "1111 Sq Ft",
+      carpetArea: "921 Sq Ft",
+      price: "₹1.14 Cr",
     },
   ],
 
-  mainImage: "/properties/amariVintage/1.jpg.png",
+  mainImage: "/properties/HermitageRoyal/1.png",
 
   gallery: [
-    "/properties/amariVintage/1.jpg.png",
-    "/properties/amariVintage/2.jpg",
-    "/properties/amariVintage/3.jpg",
-    "/properties/amariVintage/4.jpg",
-    "/properties/amariVintage/5.jpg",
-    "/properties/amariVintage/6.jpg",
-    "/properties/amariVintage/7.jpg",
-    "/properties/amariVintage/8.jpg",
-    "/properties/amariVintage/9.jpg",
-    "/properties/amariVintage/10.jpg",
-    "/properties/amariVintage/11.jpg",
-    "/properties/amariVintage/12.jpg",
-    "/properties/amariVintage/13.jpg",
+    "/properties/HermitageRoyal/1.png",
+    "/properties/HermitageRoyal/2.jpg",
+    "/properties/HermitageRoyal/3.jpg",
+    "/properties/HermitageRoyal/4.jpg",
+    "/properties/HermitageRoyal/5.jpg",
+    "/properties/HermitageRoyal/6.jpg",
+    "/properties/HermitageRoyal/7.jpg",
+    "/properties/HermitageRoyal/8.jpg",
+    "/properties/HermitageRoyal/9.jpg",
+    "/properties/HermitageRoyal/10.jpg",
+    "/properties/HermitageRoyal/11.jpg",
   ],
 
   amenities: [
@@ -119,9 +117,13 @@ const amariVintage: Property = {
     },
   ],
 
-  highlights: ["Premium Location", "Modern Architecture", "Luxury Lifestyle"],
+  highlights: [
+    "10000 Sqft Club Area",
+    "Green Lush Area",
+    "Basement + Stilt Parking",
+  ],
 
   mapLink: "#",
 };
 
-export default amariVintage;
+export default hermitageRoyal;

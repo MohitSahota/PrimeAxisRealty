@@ -8,6 +8,7 @@ import vamanaArvindam from "./vamanaArvindam";
 import vintageGreen from "./vintageGreen";
 import tiara from "./tiara";
 import motiaHarmonyGreen from "./motiaHarmonyGreen";
+import hermitageRoyal from "./hermitageRoyal";
 
 export const properties = [
   amariVintage,
@@ -20,4 +21,5 @@ export const properties = [
   vintageGreen,
   tiara,
   motiaHarmonyGreen,
+  hermitageRoyal,
 ];

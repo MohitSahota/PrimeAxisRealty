@@ -1,4 +1,6 @@
-const imperial = {
+import type { Property } from "../types";
+
+const imperial: Property = {
   slug: "imperial",
   category: "residential",
 

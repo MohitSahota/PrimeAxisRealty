@@ -1,10 +1,13 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import type { Metadata } from "next";
-import { Inter, Cinzel } from "next/font/google";
+import { Inter, Cinzel, Geist } from "next/font/google";
 import "./globals.css";
-import ThemeToggle from "../components/ThemeToggle";
+// import ThemeToggle from "../components/ThemeToggle";
 import LocalBusinessSchema from "../components/LocalBusinessSchema";
+import { cn } from "@/lib/utils";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 const inter = Inter({
   subsets: ["latin"],
@@ -76,7 +79,7 @@ export const metadata: Metadata = {
   "Luxury Properties Tricity"
 ],
 
-  metadataBase: new URL("https://primeaxisrealty.in"),
+  metadataBase: new URL("https://www.primeaxisrealty.in"),
 
   alternates: {
     canonical: "/",
@@ -89,7 +92,7 @@ export const metadata: Metadata = {
     description:
       "Discover premium residential, commercial and investment opportunities across Chandigarh, Mohali and Panchkula.",
 
-    url: "https://primeaxisrealty.in",
+    url: "https://www.primeaxisrealty.in",
 
     siteName: "Prime Axis Realty",
 
@@ -125,7 +128,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-  <html lang="en">
+  <html lang="en" className={cn("font-sans", geist.variable)}>
     <body
       className={`${inter.variable} ${cinzel.variable}`}
     >

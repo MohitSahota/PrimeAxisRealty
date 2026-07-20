@@ -1,4 +1,6 @@
-const vamanaArvindam = {
+import type { Property } from "../types";
+
+const vamanaArvindam: Property = {
   slug: "vamanaArvindam",
   category: "residential",
 

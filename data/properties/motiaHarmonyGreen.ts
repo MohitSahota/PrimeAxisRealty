@@ -1,4 +1,6 @@
-const motiaHarmonyGreen = {
+import type { Property } from "../types";
+
+const motiaHarmonyGreen: Property = {
   slug: "motiaHarmonyGreen",
   category: "residential",
   title: "Motia Harmony Green",

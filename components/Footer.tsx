@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="relative mt-20 border-t border-[var(--theme-border)] bg-[var(--theme-card)] backdrop-blur-xl overflow-hidden">
+    <footer className="relative mt-20 border-t border-[var(--theme-border)] bg-[#091E19] backdrop-blur-xl overflow-hidden">
       {/* Gold Accent Line */}
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#daa520] to-transparent" />
 
